@@ -1,0 +1,18 @@
+.review {
+    grid-area: review;
+    line-height: 10px;
+    
+    .review-header{
+        color: rgba(77, 80, 85, 0.6);
+    }
+
+    .review-time{
+        font-size: 2rem;
+        font-weight: bold;
+        color: rgb(77, 80, 85);
+    }
+
+    .clock{
+        color: rgba(77, 80, 85, 0.6);
+    }
+}
