@@ -1,12 +1,15 @@
 .calender-component-container{
     display: inline-block;
-    
+
     .calender-component-grid{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: auto 1fr;
         grid-template-areas:
             "calender time";
+    }
+    
+    .calender-component-grid{
 
         .calender {
             grid-area: calender;
@@ -63,6 +66,13 @@
                     }
                 }
             }
+        }
+
+        .time-hide{
+            display: none;
+        }
+        .time-visible{
+            display: block;
         }
 
         .time{
