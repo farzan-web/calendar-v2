@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbfcfd;
+}
+.App{
+    margin-top: 100px;
+
+}
+
+.appointment-container{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid var(--text-color-level3, rgba(77, 80, 85, 0.1));
+    border-radius: 8px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.appointment-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr;
+	grid-template-areas:
+		"review calender";
+}
+
+.review {
+	grid-area: review;
+}
+
+.calender {
+	grid-area: calender;
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbfcfd; }
+
+.App {
+  margin-top: 100px; }
+
+.appointment-container {
+  width: 1000px;
+  height: 500px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid var(--text-color-level3, rgba(77, 80, 85, 0.1));
+  border-radius: 8px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.08); }
+
+.appointment-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "review calender"; }
+
+.review {
+  grid-area: review; }
+
+.calender {
+  grid-area: calender; }
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9wYWdlcy9pbmRleC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksVUFBUztFQUNULFdBQVU7RUFDViwwQkFBeUIsRUFDNUI7O0FBQ0Q7RUFDSSxrQkFBaUIsRUFFcEI7O0FBRUQ7RUFDSSxjQUFhO0VBQ2IsY0FBYTtFQUNiLHdCQUF1QjtFQUN2QixlQUFjO0VBQ2QsY0FBYTtFQUNiLGtFQUFpRTtFQUNqRSxtQkFBa0I7RUFDbEIsNENBQTJDLEVBQzlDOztBQUVEO0VBQ0MsY0FBYTtFQUNiLCtCQUE4QjtFQUM5Qiw2QkFBNEI7RUFDNUIsdUNBQ2tCLEVBQ2xCOztBQUVEO0VBQ0Msa0JBQWlCLEVBQ2pCOztBQUVEO0VBQ0Msb0JBQW1CLEVBQ25CIiwiZmlsZSI6InN0YXRpYy9jc3Mvc3R5bGVzLmNodW5rLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmYmZjZmQ7XHJcbn1cclxuLkFwcHtcclxuICAgIG1hcmdpbi10b3A6IDEwMHB4O1xyXG5cclxufVxyXG5cclxuLmFwcG9pbnRtZW50LWNvbnRhaW5lcntcclxuICAgIHdpZHRoOiAxMDAwcHg7XHJcbiAgICBoZWlnaHQ6IDUwMHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICAgIHBhZGRpbmc6IDMwcHg7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS10ZXh0LWNvbG9yLWxldmVsMywgcmdiYSg3NywgODAsIDg1LCAwLjEpKTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICAgIGJveC1zaGFkb3c6IDAgMXB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4wOCk7XHJcbn1cclxuXHJcbi5hcHBvaW50bWVudC1ncmlke1xyXG5cdGRpc3BsYXk6IGdyaWQ7XHJcblx0Z3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyO1xyXG5cdGdyaWQtdGVtcGxhdGUtcm93czogYXV0byAxZnI7XHJcblx0Z3JpZC10ZW1wbGF0ZS1hcmVhczpcclxuXHRcdFwicmV2aWV3IGNhbGVuZGVyXCI7XHJcbn1cclxuXHJcbi5yZXZpZXcge1xyXG5cdGdyaWQtYXJlYTogcmV2aWV3O1xyXG59XHJcblxyXG4uY2FsZW5kZXIge1xyXG5cdGdyaWQtYXJlYTogY2FsZW5kZXI7XHJcbn0iXSwic291cmNlUm9vdCI6IiJ9*/
