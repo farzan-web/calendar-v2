@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opeqe/calendar-v2.git"
+    "url": "git+https://github.com/farzan-web/calendar-v2.git"
   },
   "author": "Farzan Moradi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/opeqe/calendar-v2/issues"
+    "url": "https://github.com/farzan-web/calendar-v2/issues"
   },
-  "homepage": "https://github.com/opeqe/calendar-v2#readme",
+  "homepage": "https://github.com/farzan-web/calendar-v2#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
