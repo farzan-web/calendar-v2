@@ -1,6 +1,8 @@
 .calender-component-container{
     display: inline-block;
-
+    padding: 25px;
+    padding-left: 45px;
+    
     .calender-component-grid{
         display: grid;
         grid-template-columns: 1fr;
@@ -68,41 +70,6 @@
             }
         }
 
-        .time-hide{
-            display: none;
-        }
-        .time-visible{
-            display: block;
-        }
-
-        .time{
-
-            .time-date{
-                padding-left: 17px;
-                padding-top: 45px;
-            }
-
-            .time-body{
-                height: 585px;
-
-                overflow: auto;
-
-                display: grid;
-                    grid-template-columns: 1fr;
-                    grid-template-rows: auto;
-                    color: #4d5055;
-            
-                .time-hours{
-                    margin: 0 auto;
-                    margin-top: 5px;
-                    padding: 5px 100px;
-                    border: 1px solid #60c2fa;
-                    border-radius: 5px;
-                    color: #1fadff;
-                    font-weight: bold;
-                    cursor: pointer;
-                }
-            }
-        }
+        
     }
 }
