@@ -5,18 +5,52 @@
     .calender-header{
         font-size: 1.3rem;
         font-weight: bold;
-        color: rgb(77, 80, 85);
+        color: #4d5055;
     }
 
     .calender-api{
         line-height: 30px;
 
         .calender-date{
-            color: rgba(77, 80, 85, 0.6);
+            color: #4d5055;
         }
 
         .calender-body{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+            color: #4d5055;
 
+            .week-days{
+                margin: 0 auto;
+                font-size: 0.8rem;
+            }
+
+            .month-days{
+                margin: 0 auto;
+                padding: 2px;
+
+                p{
+                    margin: 0 auto;
+                    background-color: rgba(173, 216, 230, 0.15);
+                    color: #00a2ff;
+                    border-radius: 25px;
+                    font-weight: bold;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: rgba(173, 216, 230, 0.479);
+                    }
+                }
+
+                .one{    
+                    padding: 5px 15px;
+                }
+
+                .two{    
+                    padding: 5px 10px;
+                }
+            }
         }
     }
 }

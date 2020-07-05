@@ -1,5 +1,4 @@
 import './index.scss';
-import days from '../data/calender.json';
 
 import AppointmentDetail from '../components/appointment-details/appointment-details.component';
 import AppointmentReview from '../components/appointment-review/appointment-review.component';
@@ -18,8 +17,13 @@ export default class Index extends React.Component{
             <div className='App'>
                 <div className='appointment-container'>
                     <div className='appointment-grid'>
-                        <AppointmentReview />
-                        <Calender days={days}/>
+                        <div>
+                            <AppointmentReview />
+                        </div>
+                        <div>
+                            <Calender />
+                            <Timezone />
+                        </div>
                     </div>
                 </div>
             </div>
