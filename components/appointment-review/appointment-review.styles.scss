@@ -1,8 +1,28 @@
 .review {
     grid-area: review;
     line-height: 10px;
+
+    .back-btn-container{
+        position: relative;
+        width: 45px;
+        height: 45px;
+        border: 1px solid rgba(90, 93, 98, 0.102);
+        border-radius:50%;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 5rem;
+
+        .back-btn{
+            position: absolute;
+            top: -12px;
+            left: 12px;
+            color: #00a2ff;
+            font-size: 4.5rem;
+        }
+    }
     
     .review-header{
+        padding-top: 20px;
         color: rgba(77, 80, 85, 0.6);
     }
 

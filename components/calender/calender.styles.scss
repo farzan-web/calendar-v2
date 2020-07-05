@@ -1,87 +1,97 @@
 .calender-component-container{
-    display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto 1fr;
-	grid-template-areas:
-		"calender time";
+    display: inline-block;
+    
+    .calender-component-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            "calender time";
 
-    .calender {
-        grid-area: calender;
-        line-height: 10px;
-        
-        .calender-header{
-            font-size: 1.3rem;
-            font-weight: bold;
-            color: #4d5055;
-        }
-
-        .calender-api{
-            line-height: 30px;
-
-            .calender-date{
+        .calender {
+            grid-area: calender;
+            line-height: 10px;
+            
+            .calender-header{
+                font-size: 1.3rem;
+                font-weight: bold;
                 color: #4d5055;
             }
 
-            .calender-body{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-                grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
-                color: #4d5055;
+            .calender-api{
+                line-height: 30px;
 
-                .week-days{
-                    margin: 0 auto;
-                    font-size: 0.8rem;
+                .calender-date{
+                    color: #4d5055;
                 }
 
-                .month-days{
-                    margin: 0 auto;
-                    padding: 2px;
+                .calender-body{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+                    color: #4d5055;
 
-                    p{
+                    .week-days{
                         margin: 0 auto;
-                        background-color: rgba(173, 216, 230, 0.15);
-                        color: #00a2ff;
-                        border-radius: 25px;
-                        font-weight: bold;
-                        cursor: pointer;
+                        font-size: 0.8rem;
+                    }
 
-                        &:hover{
-                            background-color: rgba(173, 216, 230, 0.479);
+                    .month-days{
+                        margin: 0 auto;
+                        padding: 2px;
+
+                        p{
+                            margin: 0 auto;
+                            background-color: rgba(173, 216, 230, 0.15);
+                            color: #00a2ff;
+                            border-radius:50%;
+                            font-weight: bold;
+                            cursor: pointer;
+
+                            &:hover{
+                                background-color: rgba(173, 216, 230, 0.479);
+                            }
+                        }
+
+                        .one{    
+                            padding: 5px 15px;
+                        }
+
+                        .two{    
+                            padding: 5px 10px;
                         }
                     }
-
-                    .one{    
-                        padding: 5px 15px;
-                    }
-
-                    .two{    
-                        padding: 5px 10px;
-                    }
                 }
             }
         }
-    }
 
-    .time{
+        .time{
 
-        .time-body{
-            height: 500px;
+            .time-date{
+                padding-left: 17px;
+                padding-top: 45px;
+            }
 
-            overflow: auto;
+            .time-body{
+                height: 585px;
 
-            display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: auto;
-                color: #4d5055;
-        
-            .time-hours{
-                margin: 0 auto;
-                margin-top: 5px;
-                padding: 5px 50px;
-                border: 1px solid;
-                color: #00a2ff;
-                font-weight: bold;
-                cursor: pointer;
+                overflow: auto;
+
+                display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: auto;
+                    color: #4d5055;
+            
+                .time-hours{
+                    margin: 0 auto;
+                    margin-top: 5px;
+                    padding: 5px 100px;
+                    border: 1px solid #60c2fa;
+                    border-radius: 5px;
+                    color: #1fadff;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
             }
         }
     }
