@@ -1,0 +1,96 @@
+.details-container{
+    grid-area: details;
+    line-height: 10px;
+    padding: 25px;
+
+    .details-grid{
+
+        .details-header{
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #4d5055;
+        }
+
+        .name{
+            font-size: 0.85rem;
+            color: #4d5055;
+        }
+
+        .email{
+            font-size: 0.85rem;
+            color: #4d5055;
+        }
+
+        .discription{
+            font-size: 0.85rem;
+            color: #4d5055;
+        }
+
+        input{
+            width: 350px;
+            margin-bottom: 30px;
+            border: 1px solid #d0d0d0;
+            font-size: 16px;
+            display: block;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 46px;
+            padding: 10px 14px;
+            color: rgb(77, 80, 85);
+
+            &:focus {
+                border: 2px solid rgb(0, 162, 255) !important;
+                outline: none !important;
+              }
+        }
+
+        textarea{
+            padding: 8px;
+            border: 1px solid #d0d0d0;
+            display: block;
+            box-sizing: border-box;
+            width: 100%;
+            min-height: 46px;
+            padding: 10px 14px;
+            color: rgb(77, 80, 85);
+            font-size: 16px;
+            line-height: 1.5;
+            word-wrap: normal;
+            background: #ffffff;
+            border: 1px solid #d0d0d0;
+            border-radius: 0;
+
+            &:focus {
+                border: 2px solid rgb(0, 162, 255) !important;
+                outline: none !important;
+              }
+        }
+
+        .guest-container{
+            margin-top: -10px;
+            margin-bottom: 40px;
+
+            .guest{
+                border: 1px solid #00a2ff !important;
+                color: #00a2ff;
+                border-radius:5px;
+                cursor: pointer;
+                padding: 5px 15px;
+            }
+        }
+
+        .Schedule-container{
+            margin-top: 50px;
+            
+            .Schedule{
+                margin-top: 5000px;
+                background-color: #00a2ff;
+                color: white;
+                border-radius:5px;
+                cursor: pointer;
+                padding: 13px 15px;
+            }
+        }
+
+    }
+}

@@ -35,3 +35,19 @@ body {
 	grid-template-areas:
 		"review calender";
 }
+
+.appointment-grid-details{
+	display: grid;
+	grid-template-columns: 3fr 3.5fr 1.5fr;
+	grid-template-rows: auto 1fr;
+	grid-template-areas:
+		"review details";
+}
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
